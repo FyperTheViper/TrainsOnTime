@@ -6,5 +6,8 @@ var config = {
     storageBucket: "ride-the-train-90321.appspot.com",
     messagingSenderId: "741549140791"
   };
-  
+
   firebase.initializeApp(config);
+
+
+alert("Who am I?")
