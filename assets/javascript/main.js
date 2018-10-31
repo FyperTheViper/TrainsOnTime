@@ -1,3 +1,6 @@
+$(document).ready(function() {
+
+let l = console.log()
 var config = {
     apiKey: "AIzaSyD_YOyZU-QxptbHgIMs7-_ncQNAdujhwgs",
     authDomain: "ride-the-train-90321.firebaseapp.com",
@@ -9,5 +12,15 @@ var config = {
 
   firebase.initializeApp(config);
 
+let database = firebase.database();
 
-alert("Who am I?")
+$("#gimme-train").on("click", function() {
+
+  let trainName = $("#name-here").val().trim();
+  let trainPlace = $("#place-here").val().trim();
+  let trainTime = $("#time-here").val().trim();
+  let trainFrequency = $("#frequency-here").val().trim();
+
+})
+
+})

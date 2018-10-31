@@ -15,6 +15,7 @@
     </header>
 
     <section id="container">
+        <h2>Party Train</h2>
         <table id="time-table">
             <thead>
                 <tr>
@@ -25,7 +26,28 @@
                     <th>Minutes Away</th>
                 </tr>
             </thead>
+            <tbody id="new-train-schedule"></tbody>
         </table>
+
+        <form>
+            <div class="train-form">
+                <label for="">Train Name</label>
+                <input type="text" id="name-here" placeholder="Party Train">
+            </div>
+            <div class="train-form">
+                <label for="">Destination</label>
+                <input type="text" id="place-here" placeholder="Where is the Party?">
+            </div>
+            <div class="train-form">
+                <label for="">Original Train Time</label>
+                <input type="date" id="time-here" placeholder="00:00">
+            </div>
+            <div class="train-form">
+                <label for="">Frequency (in mins)</label>
+                <input type="text" id="frequency-here" placeholder="Next Party?">
+            </div>
+            <button type="submit" id="gimme-train">Submit</button>
+        </form>
     </section>
     
     <script src="assets/javascript/main.js"></script>
