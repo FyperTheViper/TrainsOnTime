@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Train Time</title>
+    <title>Soul Train!</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet"> 
     <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
@@ -15,7 +18,8 @@
     </header>
 
     <section id="container">
-        <h2>Party Train</h2>
+        <h2>The Sooooouul Train</h2>
+        <div id="date-time"></div>
         <table>
             <thead>
                 <tr>
@@ -39,7 +43,7 @@
                 <input type="text" id="place-here" placeholder="Where is the Party?">
             </div>
             <div class="train-form">
-                <label for="">Original Train Time (HH:mm - Military Time)</label>
+                <label for="">Train Time (Military Time)</label>
                 <input type="text" id="time-here" placeholder="00:00">
             </div>
             <div class="train-form">
